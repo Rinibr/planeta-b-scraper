@@ -19,12 +19,12 @@ pip install PyQt5 qasync playwright aiohttp openpyxl
 playwright install chromium
 
 ##Запуск
-```bash
+
 python planeta_b_scraper.py
 
 ##Файл категорий
 Отредактируйте файл categories.json, чтобы добавить нужные вам категории и ссылки на них.
-```bash
+
 {
   "--- Выберите категорию ---": "",
   "Уличные IP камеры": "https://planeta-b.ru/ulichnye-ip-kamery.html",
