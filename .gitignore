@@ -1,0 +1,33 @@
+# Лог-файлы
+*.log
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения (если используете)
+venv/
+.venv/
+env/
+.env/
+ENV/
+*.env
+
+# Файлы IDE/редактора (примеры)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Файлы сборки PyInstaller (если будете упаковывать)
+dist/
+build/
+*.spec
+
+# Файлы с секретами (если есть, НИКОГДА не добавляйте их в Git)
+# secrets.ini
+# config.yaml
